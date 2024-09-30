@@ -2,12 +2,20 @@
   padding: 0;
   margin: 0;
 }
-.container{
+.container {
   max-width: 1320px;
   margin: auto;
 }
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 247, 231, 0) 0%,
+    rgba(255, 241, 220, 1) 100%
+  );
+}
 /* =========================Common CSS Start=========================== */
-ul,ol {
+ul,
+ol {
   list-style: none;
 }
 a{
@@ -28,55 +36,130 @@ a{
   font-optical-sizing: auto;
   font-style: normal;
 }
-.thin{
+.thin {
   font-weight: 100;
 }
-.extralight{
+.extralight {
   font-weight: 200;
 }
-.light{
+.light {
   font-weight: 300;
 }
-.normal{
+.normal {
   font-weight: 400;
 }
-.medium{
+.medium {
   font-weight: 500;
 }
-.semibold{
+.semibold {
   font-weight: 600;
 }
-.bold{
+.bold {
   font-weight: 700;
 }
-.extrabold{
+.extrabold {
   font-weight: 800;
 }
-.black{
+.black {
   font-weight: 900;
 }
+.title{
+  color: #F95C19;
+  font-size: 31px;
+  font-weight: 700;
+  font-family: "Oxanium", sans-serif;
+}
+.subtitle{
+  color: #11111D;
+  font-size: 39px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+.titleWrapper{
+  text-align: center;
+}
+/* =========================Common CSS End=========================== */
 
-/* =========================Common CSS Start=========================== */
+
 /* =========================Nabver CSS start============================ */
-.header_main{
+header {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.header_main {
   align-items: center;
   gap: 532px;
+  padding: 15px 0px;
 }
-.header_nav_item{
+.header_nav_item {
   gap: 25px;
   font-size: 16px;
   margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  
 }
-a:hover{
-  color:#F95C19;
-  font-weight: 800;
-}
-.nav_button{
+/* .header_nav_item ul li:hover {
   color: #F95C19;
+} */
+.header_search {
+  justify-content: center;
+  align-items: center;
+  background: #ffedc9;
+  width: 50px;
+  height: 50px;
+  margin-left: 45px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+.button {
+  color: #f95c19;
   padding: 12px 20px;
   background-color: #FFE4D9;
   border-radius: 5px;
   font-size: 20px;
-  margin-left: 10px;
 }
 /* =========================Nabver CSS End============================ */
+
+
+/* =========================Banner CSS Start============================ */
+#banner{
+  padding-top: 108px;
+  padding-bottom: 168px;
+}
+.banner_text{
+  align-self: center;
+}
+.banner_text h1{
+  color: #261134;
+  font-size: 49px;
+  width: 516px;
+  letter-spacing: 120%;
+}
+.banner_text p{
+  color: #4D4D4D;
+  font-size: 20px;
+  letter-spacing: 120%;
+  width: 330px;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+.banner_button_color{
+  color: #FFFFFF;
+  background-color: #F95C19;
+}
+.banner_button_color i{
+  margin-left: 10px;
+}
+/* =========================Banner CSS End============================ */
+
+
+/* =========================Services CSS start============================ */
+/* =========================Services CSS End============================ */
+
