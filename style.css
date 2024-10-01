@@ -161,5 +161,54 @@ header {
 
 
 /* =========================Services CSS start============================ */
+.services_main{
+  margin-top: 86px;
+}
+.services_card{
+  background-color: #FFFFFF;
+  width: 32%;
+  border-radius: 16px;
+  padding-right: 67px;
+  padding-left: 55px;
+  padding-bottom: 49px;
+  padding-top: 79px;
+}
+.services_card_icon .circle{
+  text-align: center;
+  margin: auto;
+  background-color: #FFAF0F;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.services_card_icon .circle img{
+  margin-top: 37px;
+}
+.services_card h2{
+  text-align: center;
+  color: #464558;
+  font-size: 25px;
+  margin-top: 29px;
+}
+.services_card p{
+  color: #7B7A8B;
+  font-size: 16px;
+  width: 301px;
+  margin-top: 32px;
+  margin-bottom: 36px;
+  margin-left: 55px;
+}
+.services_card ul{
+  color: #7B7A8B;
+  font-size: 16px;
+  letter-spacing: 120%;
+  list-style: disc;
+  margin-left: 73px;
+}
+::marker{
+  font-size: 18px;
+  color: #F95C19;
+}
+
 /* =========================Services CSS End============================ */
 
