@@ -87,6 +87,7 @@ a {
 }
 /* =========================Common CSS End=========================== */
 
+
 /* =========================Nabver CSS start============================ */
 header {
   background: radial-gradient(
@@ -126,6 +127,7 @@ header {
 
 /* =========================Nabver CSS End============================ */
 
+
 /* =========================Banner CSS Start============================ */
 #banner {
   padding-top: 108px;
@@ -156,6 +158,7 @@ header {
   margin-left: 10px;
 }
 /* =========================Banner CSS End============================ */
+
 
 /* =========================Services CSS start============================ */
 .services_main {
@@ -216,3 +219,28 @@ header {
   color: #ffffff;
 }
 /* =========================Services CSS End============================ */
+
+
+/* =========================ACtivity CSS Start============================ */
+#activity{
+margin-top: 172px;
+margin-bottom: 162px;
+}
+.activity_card{
+  text-align: center;
+  margin: auto;
+}
+.activity_img{
+  margin-top: 20px ;
+}
+.activity_img_other{
+  margin-top: 37px;
+}
+.activity_card p{
+  color: #464558;
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 6px;
+}
+/* =========================ACtivity CSS End============================ */
+
