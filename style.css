@@ -246,7 +246,49 @@ margin-bottom: 162px;
 
 
 /* =========================Delivery CSS End============================ */
-
+#delivery{
+  margin-bottom: 149px;
+}
+.delivery_bg{
+  color: #ffffff;
+  padding-top: 128px ;
+  padding-bottom: 168px;
+  align-items: center;
+  flex-direction: column;
+  background:url("../Imeges/video.png") rgb(10, 9, 13,.80);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.delivery_title{
+  font-size: 32px;
+  color: #F95C19;  
+  text-align: center;
+  margin: 28px 0px;
+}
+.delivery_description{
+  color: #FFFFFF;
+  font-size: 25px;
+  width: 673px;
+  text-align: center;
+}
+.delivery_btn{
+  background-color: #F95C19;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 /* =========================Delivery CSS End============================ */
 
 
