@@ -245,7 +245,7 @@ margin-bottom: 162px;
 /* =========================ACtivity CSS End============================ */
 
 
-/* =========================Delivery CSS End============================ */
+/* =========================Delivery CSS Start============================ */
 #delivery{
   margin-bottom: 149px;
 }
@@ -290,5 +290,22 @@ margin-bottom: 162px;
   -o-border-radius: 50%;
 }
 /* =========================Delivery CSS End============================ */
+
+
+/* =========================Testimonial CSS Start============================ */
+#testimonial{
+  margin-bottom: 172px;
+}
+.testimonial_title{
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+.testimonial_headline{
+  text-align: center;
+  margin-top: 14px;
+}
+/* =========================Testimonial CSS End============================ */
+
 
 
