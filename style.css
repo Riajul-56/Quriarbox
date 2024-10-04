@@ -154,6 +154,15 @@ header {
   color: #ffffff;
   background-color: #f95c19;
 }
+.banner_button_color:hover{
+  background-color: #FFFFFF;
+  color: #f95c19;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
 .banner_button_color i {
   margin-left: 10px;
 }
@@ -212,11 +221,15 @@ header {
   display: inline-block;
   margin-top: 60px;
   padding: 12px 96px;
-  /* margin-left: 60px; */
 }
 .services_btn:hover{
   background-color: #F95C19;
   color: #ffffff;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
 }
 /* =========================Services CSS End============================ */
 
@@ -304,6 +317,58 @@ margin-bottom: 162px;
 .testimonial_headline{
   text-align: center;
   margin-top: 14px;
+}
+.testimonial_content{
+  width: 872px;
+  margin-top: 90px;
+  margin: auto;
+  background-color: #FFFFFF;
+  padding-top: 39px;
+  padding-bottom: 34px;
+  padding-right: 29px;
+  padding-left: 38px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.testimonial_content h2{
+  font-size: 25px;
+  color: #f95c19;
+}
+.testimonial_content p{
+  font-size: 16px;
+  color: #464558;
+  margin: 15px 0px;
+}
+.testimonial_content_bottom{
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial_review{
+  color: #f95c19;
+}
+.testimonial_client{
+  text-align: right;
+  gap: 13px;
+  align-items: center;
+}
+.testimonial_client h3{
+  font-size: 16px;
+  color: #222132;
+}
+.testimonial_client h4{
+  font-size: 16px;
+  color: #464558;
+  margin-top: 4px;
+}
+.testimonial_client img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 /* =========================Testimonial CSS End============================ */
 
