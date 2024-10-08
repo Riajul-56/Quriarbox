@@ -307,7 +307,7 @@ margin-bottom: 162px;
 
 /* =========================Testimonial CSS Start============================ */
 #testimonial{
-  margin-bottom: 172px;
+  margin-bottom: 200px;
 }
 .testimonial_title{
   align-items: center;
@@ -374,7 +374,76 @@ margin-bottom: 162px;
 
 
 /* =========================Contact CSS Start============================ */
-
+#contact{
+  margin-bottom: 169px;
+}
+.contact_main{
+  width: 872px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact_left{
+  width: 49%;
+}
+.contact_left h4{
+  font-size: 24px;
+  color: #F95C19;
+  margin-top: 13px;
+}
+.contact_left h3{
+  font-size: 39px;
+  color: #222132;
+  line-height: 110%;
+  width: 412px;
+  margin-top: 20px;
+}
+.contact_left h6{
+  font-size: 25px;
+  color: #9291A1;
+  margin-top: 9px;
+}
+.contact_right{
+  width: 48%;
+}
+.contact_right form{
+  flex-direction: column;
+  font: 16px;
+  gap: 16px;
+}
+.contact_right input,textarea{
+  border: 2px solid #C5C5D2;
+  padding: 15px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  resize: none;
+}
+.contact_right input::placeholder, textarea::placeholder{
+  font-size: 16px;
+  font-family: "Oxanium", sans-serif;
+  line-height: 145%;
+  color: #9291A1;
+  text-transform: capitalize;
+}
+.contact_right button{
+  font-size: 20px;
+  background-color: #F95C19;
+  color: #FFFFFF;
+  border: none;
+}
+.contact_right button:hover{
+  background-color: transparent;
+  color: #F95C19;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
 /* =========================Contact CSS End============================ */
 
 
