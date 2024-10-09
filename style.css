@@ -446,6 +446,75 @@ margin-bottom: 162px;
 }
 /* =========================Contact CSS End============================ */
 
+/* =========================Find_Us CSS Start============================ */
+#Fineus{
+  margin-bottom: 185px;
+}
+.findus_title{
+  text-align: center;
+}
+.findus_access{
+  margin-top: 85px;
+  justify-content: space-between;
+}
+.findus_access_contact{
+  padding-top: 81px;
+  padding-left: 85px;
+  padding-right: 126px;
+  padding-bottom: 81px;
+  background-color: #FEFCFA;
+}
+.findus_access_contact h6{
+  font-size: 20px;
+  color: #464558;
+}
+.findus_access_contact i{
+  color: #FFAF0F;
+  margin-right: 16px;
+  font-size: 20px;
+}
+.findus_access_contact_item_1 {
+  font-size: 16px;
+  color: #5C5B6C;
+  margin-top: 37px ;
+  margin-bottom: 15px;
+}
+.findus_access_contact_item_2 {
+  font-size: 16px;
+  color: #5C5B6C;
+  width: 285px;
+  align-items: center;
+}
+.findus_access_contact_item_3{
+  font-size: 16px;
+  color: #5C5B6C;
+  margin-top: 15px;
+}
+.findus_access_contact_icon i{
+  color: #F95C19 !important; 
+  margin-top: 51px;
+  font-size: 25px;
+}
+.Fineus_call {
+  background-color: #F95C19;
+  color: #FFFFFF;
+  padding: 22px 113px;
+  margin-top: 30px;
+  margin-left: 387px;
+  font-size: 20px;
+}
+.Fineus_call i{
+  margin-right: 12px;
+  font-size: 25px;
+}
+/* =========================Find_Us CSS End============================ */
+
+/* =========================Footer CSS End============================ */
+
+/* =========================Footer CSS End============================ */
+
+
+
 
 
 
