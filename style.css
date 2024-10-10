@@ -268,7 +268,7 @@ margin-bottom: 162px;
   padding-bottom: 168px;
   align-items: center;
   flex-direction: column;
-  background:url("../Imeges/video.png") rgb(10, 9, 13,.80);
+  background:url("../Imeges/delivery.png") rgb(10, 9, 13,.80);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -509,7 +509,8 @@ margin-bottom: 162px;
 }
 /* =========================Find_Us CSS End============================ */
 
-/* =========================Footer CSS End============================ */
+
+/* =========================Footer CSS Start============================ */
 
 /* =========================Footer CSS End============================ */
 
