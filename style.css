@@ -87,7 +87,6 @@ a {
 }
 /* =========================Common CSS End=========================== */
 
-
 /* =========================Nabver CSS start============================ */
 header {
   background: radial-gradient(
@@ -127,7 +126,6 @@ header {
 
 /* =========================Nabver CSS End============================ */
 
-
 /* =========================Banner CSS Start============================ */
 #banner {
   padding-top: 108px;
@@ -154,20 +152,19 @@ header {
   color: #ffffff;
   background-color: #f95c19;
 }
-.banner_button_color:hover{
-  background-color: #FFFFFF;
+.banner_button_color:hover {
+  background-color: #ffffff;
   color: #f95c19;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 .banner_button_color i {
   margin-left: 10px;
 }
 /* =========================Banner CSS End============================ */
-
 
 /* =========================Services CSS start============================ */
 .services_main {
@@ -214,42 +211,41 @@ header {
   font-size: 18px;
   color: #f95c19;
 }
-.services_btn{
+.services_btn {
   background-color: transparent;
-  border: 1px solid #F95C19;
+  border: 1px solid #f95c19;
   border-radius: 5px;
   display: inline-block;
   margin-top: 60px;
   padding: 12px 96px;
 }
-.services_btn:hover{
-  background-color: #F95C19;
+.services_btn:hover {
+  background-color: #f95c19;
   color: #ffffff;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 /* =========================Services CSS End============================ */
 
-
 /* =========================ACtivity CSS Start============================ */
-#activity{
-margin-top: 172px;
-margin-bottom: 162px;
+#activity {
+  margin-top: 172px;
+  margin-bottom: 162px;
 }
-.activity_card{
+.activity_card {
   text-align: center;
   margin: auto;
 }
-.activity_img{
-  margin-top: 20px ;
+.activity_img {
+  margin-top: 20px;
 }
-.activity_img_other{
+.activity_img_other {
   margin-top: 37px;
 }
-.activity_card p{
+.activity_card p {
   color: #464558;
   font-size: 20px;
   line-height: 120%;
@@ -257,18 +253,17 @@ margin-bottom: 162px;
 }
 /* =========================ACtivity CSS End============================ */
 
-
 /* =========================Delivery CSS Start============================ */
-#delivery{
+#delivery {
   margin-bottom: 149px;
 }
-.delivery_bg{
+.delivery_bg {
   color: #ffffff;
-  padding-top: 128px ;
+  padding-top: 128px;
   padding-bottom: 168px;
   align-items: center;
   flex-direction: column;
-  background:url("../Imeges/delivery.png") rgb(10, 9, 13,.80);
+  background: url("../Imeges/delivery.png") rgb(10, 9, 13, 0.8);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -277,20 +272,20 @@ margin-bottom: 162px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.delivery_title{
+.delivery_title {
   font-size: 32px;
-  color: #F95C19;  
+  color: #f95c19;
   text-align: center;
   margin: 28px 0px;
 }
-.delivery_description{
-  color: #FFFFFF;
+.delivery_description {
+  color: #ffffff;
   font-size: 25px;
   width: 673px;
   text-align: center;
 }
-.delivery_btn{
-  background-color: #F95C19;
+.delivery_btn {
+  background-color: #f95c19;
   font-size: 35px;
   justify-content: center;
   align-items: center;
@@ -304,25 +299,24 @@ margin-bottom: 162px;
 }
 /* =========================Delivery CSS End============================ */
 
-
 /* =========================Testimonial CSS Start============================ */
-#testimonial{
+#testimonial {
   margin-bottom: 200px;
 }
-.testimonial_title{
+.testimonial_title {
   align-items: center;
   justify-content: center;
   gap: 38px;
 }
-.testimonial_headline{
+.testimonial_headline {
   text-align: center;
   margin-top: 14px;
 }
-.testimonial_content{
+.testimonial_content {
   width: 872px;
   margin-top: 90px;
   margin: auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding-top: 39px;
   padding-bottom: 34px;
   padding-right: 29px;
@@ -333,37 +327,37 @@ margin-bottom: 162px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
 }
-.testimonial_content h2{
+.testimonial_content h2 {
   font-size: 25px;
   color: #f95c19;
 }
-.testimonial_content p{
+.testimonial_content p {
   font-size: 16px;
   color: #464558;
   margin: 15px 0px;
 }
-.testimonial_content_bottom{
+.testimonial_content_bottom {
   justify-content: space-between;
   align-items: center;
 }
-.testimonial_review{
+.testimonial_review {
   color: #f95c19;
 }
-.testimonial_client{
+.testimonial_client {
   text-align: right;
   gap: 13px;
   align-items: center;
 }
-.testimonial_client h3{
+.testimonial_client h3 {
   font-size: 16px;
   color: #222132;
 }
-.testimonial_client h4{
+.testimonial_client h4 {
   font-size: 16px;
   color: #464558;
   margin-top: 4px;
 }
-.testimonial_client img{
+.testimonial_client img {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -372,47 +366,47 @@ margin-bottom: 162px;
 }
 /* =========================Testimonial CSS End============================ */
 
-
 /* =========================Contact CSS Start============================ */
-#contact{
+#contact {
   margin-bottom: 169px;
 }
-.contact_main{
+.contact_main {
   width: 872px;
   margin: auto;
   align-items: center;
   justify-content: space-between;
 }
-.contact_left{
+.contact_left {
   width: 49%;
 }
-.contact_left h4{
+.contact_left h4 {
   font-size: 24px;
-  color: #F95C19;
+  color: #f95c19;
   margin-top: 13px;
 }
-.contact_left h3{
+.contact_left h3 {
   font-size: 39px;
   color: #222132;
   line-height: 110%;
   width: 412px;
   margin-top: 20px;
 }
-.contact_left h6{
+.contact_left h6 {
   font-size: 25px;
-  color: #9291A1;
+  color: #9291a1;
   margin-top: 9px;
 }
-.contact_right{
+.contact_right {
   width: 48%;
 }
-.contact_right form{
+.contact_right form {
   flex-direction: column;
   font: 16px;
   gap: 16px;
 }
-.contact_right input,textarea{
-  border: 2px solid #C5C5D2;
+.contact_right input,
+textarea {
+  border: 2px solid #c5c5d2;
   padding: 15px 20px;
   background-color: transparent;
   border-radius: 8px;
@@ -422,100 +416,146 @@ margin-bottom: 162px;
   -o-border-radius: 8px;
   resize: none;
 }
-.contact_right input::placeholder, textarea::placeholder{
+.contact_right input::placeholder,
+textarea::placeholder {
   font-size: 16px;
   font-family: "Oxanium", sans-serif;
   line-height: 145%;
-  color: #9291A1;
+  color: #9291a1;
   text-transform: capitalize;
 }
-.contact_right button{
+.contact_right button {
   font-size: 20px;
-  background-color: #F95C19;
-  color: #FFFFFF;
+  background-color: #f95c19;
+  color: #ffffff;
   border: none;
 }
-.contact_right button:hover{
+.contact_right button:hover {
   background-color: transparent;
-  color: #F95C19;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  color: #f95c19;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 /* =========================Contact CSS End============================ */
 
 /* =========================Find_Us CSS Start============================ */
-#Fineus{
+#Fineus {
   margin-bottom: 185px;
 }
-.findus_title{
+.findus_title {
   text-align: center;
 }
-.findus_access{
+.findus_access {
   margin-top: 85px;
   justify-content: space-between;
 }
-.findus_access_contact{
+.findus_access_contact {
   padding-top: 81px;
   padding-left: 85px;
   padding-right: 126px;
   padding-bottom: 81px;
-  background-color: #FEFCFA;
+  background-color: #fefcfa;
 }
-.findus_access_contact h6{
+.findus_access_contact h6 {
   font-size: 20px;
   color: #464558;
 }
-.findus_access_contact i{
-  color: #FFAF0F;
+.findus_access_contact i {
+  color: #ffaf0f;
   margin-right: 16px;
   font-size: 20px;
 }
 .findus_access_contact_item_1 {
   font-size: 16px;
-  color: #5C5B6C;
-  margin-top: 37px ;
+  color: #5c5b6c;
+  margin-top: 37px;
   margin-bottom: 15px;
 }
 .findus_access_contact_item_2 {
   font-size: 16px;
-  color: #5C5B6C;
+  color: #5c5b6c;
   width: 285px;
   align-items: center;
 }
-.findus_access_contact_item_3{
+.findus_access_contact_item_3 {
   font-size: 16px;
-  color: #5C5B6C;
+  color: #5c5b6c;
   margin-top: 15px;
 }
-.findus_access_contact_icon i{
-  color: #F95C19 !important; 
+.findus_access_contact_icon i {
+  color: #f95c19 !important;
   margin-top: 51px;
   font-size: 25px;
 }
-.Fineus_call {
-  background-color: #F95C19;
-  color: #FFFFFF;
+.Findus_call {
+  background-color: #f95c19;
+  color: #ffffff;
   padding: 22px 113px;
   margin-top: 30px;
   margin-left: 387px;
   font-size: 20px;
 }
-.Fineus_call i{
+.Findus_call i {
   margin-right: 12px;
   font-size: 25px;
 }
 /* =========================Find_Us CSS End============================ */
 
-
 /* =========================Footer CSS Start============================ */
-
+#pre_footer {
+  background-color: #222132;
+  padding: 84px 0px;
+}
+.pre_footer_main {
+  justify-content: space-between;
+  align-items: center;
+}
+.pre_footer_left h3 {
+  font-size: 39px;
+  line-height: 110%;
+  color: #ffffff;
+}
+.pre_footer_left p {
+  font-size: 16px;
+  color: #c5c5d2;
+  line-height: 145%;
+  width: 501px;
+  margin-top: 20px;
+}
+.pre_footer_right h4 {
+  font-size: 18px;
+  color: #F95C19;
+  margin-bottom: 13px;
+}
+.pre_footer_right input,
+textarea {
+  width: 380px;
+  border: 2px solid #c5c5d2;
+  padding: 15px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  resize: none;
+}
+.pre_footer_right input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  font-family: "Oxanium", sans-serif;
+  line-height: 145%;
+  color: #9291a1;
+  text-transform: capitalize;
+}
+.pre_footer_right button{
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #F95C19;
+  border: none;
+  margin-left: 16px;
+}
 /* =========================Footer CSS End============================ */
-
-
-
-
-
-
