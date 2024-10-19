@@ -507,7 +507,7 @@ textarea::placeholder {
 /* =========================Footer CSS Start============================ */
 footer {
   background-color: #222132;
-  padding: 84px 0px;
+  padding-top: 84px;
 }
 .pre_footer_main {
   justify-content: space-between;
@@ -527,7 +527,7 @@ footer {
 }
 .pre_footer_right h4 {
   font-size: 18px;
-  color: #F95C19;
+  color: #f95c19;
   margin-bottom: 13px;
 }
 .pre_footer_right input,
@@ -551,15 +551,64 @@ textarea::placeholder {
   color: #9291a1;
   text-transform: capitalize;
 }
-.pre_footer_right button{
+.pre_footer_right button {
   font-size: 20px;
-  color: #FFFFFF;
-  background-color: #F95C19;
+  color: #ffffff;
+  background-color: #f95c19;
   border: none;
   margin-left: 16px;
 }
-.mid_footer{
-  background-color: #2F2E41;
+.mid_footer {
+  margin-top: 84px;
+  background-color: #2f2e41;
   padding: 50px 0px;
+}
+.mid_footer_main {
+  align-items: center;
+  justify-content: space-between;
+}
+.mid_footer_left {
+  width: 48%;
+}
+.mid_footer_left p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #9291a1;
+  width: 190px;
+  margin-top: 12px;
+}
+.mid_footer_right {
+  width: 50%;
+  justify-content: space-between;
+}
+.mid_footer_right_items h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.mid_footer_right_items ul li {
+  color: #9291a1;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 7px;
+}
+.mid_footer_right_items ul li:last-child {
+  margin-bottom: 0px;
+}
+.bottom_footer{
+  padding: 30px 0px ;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom_footer h6{
+  font-size: 13px;
+  color: #DBDBE9;
+}
+.bottom_footer h5{
+  font-size: 13px;
+  color: #DBDBE9;
+}
+.bottom_footer_right{
+  color: #F95C19;
 }
 /* =========================Footer CSS End============================ */
