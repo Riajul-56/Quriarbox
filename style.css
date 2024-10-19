@@ -505,7 +505,7 @@ textarea::placeholder {
 /* =========================Find_Us CSS End============================ */
 
 /* =========================Footer CSS Start============================ */
-#pre_footer {
+footer {
   background-color: #222132;
   padding: 84px 0px;
 }
@@ -557,5 +557,9 @@ textarea::placeholder {
   background-color: #F95C19;
   border: none;
   margin-left: 16px;
+}
+.mid_footer{
+  background-color: #2F2E41;
+  padding: 50px 0px;
 }
 /* =========================Footer CSS End============================ */
