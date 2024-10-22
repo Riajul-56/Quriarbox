@@ -263,7 +263,7 @@ header {
   padding-bottom: 168px;
   align-items: center;
   flex-direction: column;
-  background: url("../Imeges/delivery.png") rgb(10, 9, 13, 0.8);
+  background: url("./Imeges/delivery.png") rgb(10, 9, 13, 0.8);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   border-radius: 16px;
